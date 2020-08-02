@@ -1,0 +1,19 @@
+.toggler {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.toggler > button {
+  margin: 0;
+}
+
+.toggler.vertical {
+  min-width: 100px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.toggler.vertical > button {
+  display: block;
+}

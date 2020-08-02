@@ -1,0 +1,19 @@
+.pagination {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+
+.pagination > button {
+  margin: 0;
+}
+
+.pagination.vertical {
+  min-width: 100px;
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.pagination.vertical > button {
+  display: block;
+}

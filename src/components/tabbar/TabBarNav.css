@@ -1,0 +1,17 @@
+.nav-item {
+  flex: 1;
+  background-color: #FFF;
+  border: 1px solid #EDEDED;
+  padding: 10px 15px;
+  cursor: pointer;
+  overflow: hidden;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.nav-item.active {
+  background-color: #2aecac;
+  border-bottom-color: transparent;
+  color: #FFF;
+}
